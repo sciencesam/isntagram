@@ -1,0 +1,22 @@
+I0225 19:50:22.367620 node/config.go:445] Failed to start Ledger hub, disabling: libusb: unknown error [code -99]
+I0225 19:50:22.368018 cmd/utils/flags.go:613] WARNING: No etherbase set and no accounts found as default
+I0225 19:50:22.368142 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /home/sstone/.ethereum/geth/chaindata
+I0225 19:50:22.779677 ethdb/database.go:176] closed db:/home/sstone/.ethereum/geth/chaindata
+I0225 19:50:22.780402 node/node.go:176] instance: Geth/v1.5.9-stable-a07539fb/linux/go1.7.3
+I0225 19:50:22.780476 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /home/sstone/.ethereum/geth/chaindata
+I0225 19:50:22.834325 eth/backend.go:187] Protocol Versions: [63 62], Network Id: 1
+I0225 19:50:22.834988 eth/backend.go:215] Chain config: {ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000}
+I0225 19:50:22.835659 core/blockchain.go:219] Last header: #0 [d4e56740…] TD=17179869184
+I0225 19:50:22.835698 core/blockchain.go:220] Last block: #0 [d4e56740…] TD=17179869184
+I0225 19:50:22.835722 core/blockchain.go:221] Fast block: #0 [d4e56740…] TD=17179869184
+I0225 19:50:22.836378 p2p/server.go:340] Starting Server
+I0225 19:50:25.121004 p2p/discover/udp.go:227] Listening, enode://cafd0ea1ea8d5fbe8956a72f04af1cfdc31e5068c09e3113072f44f7c20071a3cba1045af415311c5f462217a7fc1093b9c16cb0d8af7f25e63b5a1e7db26786@[::]:30303
+I0225 19:50:25.123467 core/blockchain.go:589] Chain manager stopped
+I0225 19:50:25.123505 eth/handler.go:230] Stopping ethereum protocol handler...
+I0225 19:50:25.125625 p2p/server.go:608] Listening on [::]:30303
+I0225 19:50:25.127346 eth/handler.go:251] Ethereum protocol handler stopped
+I0225 19:50:25.127427 core/tx_pool.go:196] Transaction pool stopped
+I0225 19:50:25.127467 eth/backend.go:519] Automatic pregeneration of ethash DAG OFF (ethash dir: /home/sstone/.ethash)
+I0225 19:50:25.128461 contracts/release/release.go:134] Failed to retrieve current release: Missing trie node d7f8974fb5ac78d9ac099b9ad5018bedc2ce0a72dad1827a1709da30580f0544
+I0225 19:50:25.137044 ethdb/database.go:176] closed db:/home/sstone/.ethereum/geth/chaindata
+Fatal: Error starting protocol stack: listen unix /home/sstone/.ethereum/geth.ipc: setsockopt: invalid argument

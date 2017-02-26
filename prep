@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#first, get rid of the newlines
+tr --delete '\n' < $1 > $2
